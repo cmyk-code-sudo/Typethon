@@ -1,0 +1,27 @@
+{
+  "tython": {
+    "version": "1.0.0",
+    "supported_languages": [
+      "python",
+      "php",
+      "kotlin",
+      "java",
+      "typescript",
+      "javascript",
+      "json",
+      "xml",
+      "yaml"
+    ],
+    "file_extensions": [".ty", ".tython"],
+    "executors": {
+      "python": {"command": "python3", "extension": ".py"},
+      "php": {"command": "php", "extension": ".php"},
+      "kotlin": {"command": "kotlinc", "extension": ".kt"},
+      "java": {"command": "javac", "extension": ".java"},
+      "typescript": {"command": "tsc", "extension": ".ts"},
+      "javascript": {"command": "node", "extension": ".js"}
+    },
+    "temp_directory": ".tython_temp",
+    "timeout_seconds": 30
+  }
+}
